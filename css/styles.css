@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    font-family: "Sora", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #FAFAF9;
+}
+
+#blogCard {
+    display: flex;
+    width: 375px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 164px auto;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+    border-radius: 10px;
+}
+
+#design {
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #F2EAFD;
+    color: #7C19EE;
+    text-align: center;
+    margin: 6px 0px 4px 8px;
+    padding: 4px 6px 4px 6px;
+    margin-left: 16px;
+    width: 20%;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 16px;
+    margin-bottom: -22px;
+}
+
+#prghCard {
+    color: #394150;
+    font-size: 15px;
+    padding: 16px;
+    opacity: 90%;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: 350;
+}
+
+#line {
+    border: solid 1px #394150;
+    width: 100%;
+    opacity: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+#author {
+    color: #394150;
+    padding: 16px;
+    margin-bottom: 4px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+img {
+    padding: 16px;
+    border-radius: 25px;
+}
